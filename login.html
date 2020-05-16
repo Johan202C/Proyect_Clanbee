@@ -3,29 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/loginsStyle.css">
     <title>Login</title>
 </head>
 <body>
     <main class="contmain">
         <div class="contimg">
-            <img class="imgFondo"src="./assets/pics/ClanbeeFond_pantalla.jpg" alt="">
+            <img class="imgFondo"src="./assets/pics/login/ClanbeeFond_pantalla.jpg" alt="">
         </div>
         <div class="contLogin">
             <form class="formlogin">
                 <div class="userandlig">
-                    <img class="imgUser"src="./assets/pics/user.png" alt="">
+                    <img class="imgUser"src="./assets/pics/login/user.png" alt="">
                     <h1 class="logintext">Sign In</h1>
                 </div>
-                
                 <input type="text" class="inpputs" placeholder="User Name">
-                <input type="text" class="inpputs" placeholder="Password">
-                <a href="" class="btnlogin">Log in</a>
+                <input type="password" class="inpputs" placeholder="Password">
+                <a href="" class="btnlogin">LOG IN</a>
                 <div class="checks">
                     <input type="checkbox" id="check">
-                    <label for="check">Remember me</label>
-                    
+                    <label class="txtcheck"for="check">Remember me</label>
                 </div>
+                <div class="intoSocialMedia">
+                    <div class="socialM">
+                        <button class="btnRedSocial"><img class="imgRsocial"src="./assets/pics/login/social-media (1).png" alt="social media Google">Google</button>
+                    </div>
+                    <div class="socialM">
+                        <button class="btnRedSocial"><img class="imgRsocial"src="./assets/pics/login/social-media.png" alt="social media Facebook">Facebook</button>
+                    </div>
+                </div>
+        
             </form>
         </div>
     </main>
