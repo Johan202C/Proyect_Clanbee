@@ -63,6 +63,7 @@ body {
     border-style:none;
     background-color:rgb(214, 214, 127);
     text-align:center;
+    font-size:14px;
 }
 .btnlogin{
     width: 190px;
