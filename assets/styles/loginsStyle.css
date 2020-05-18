@@ -30,7 +30,7 @@ body {
 
 .formlogin{
     width: 340px;
-    height: 410px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,6 +111,14 @@ body {
     padding:20px;
     width:120px;
     height:40px;
+    cursor:pointer;
+}
+.contRegis{
+    margin-top:15px;
+}
+.regis{
+    text-decoration: none;
+    color:white;
 }
 
 /* -------------------aqui empieza el footer -----------------*/
@@ -207,6 +215,11 @@ footer {
 	color: #c7c7c7;
 }
 
+/* responsive de el login ---------------*/
+
+
+/* responsive de el footer ---------------*/
+
 @media (max-width: 768px) {
 	.containerBody {
 		flex-wrap: wrap;
@@ -214,7 +227,13 @@ footer {
 	.column2,
 	.column3 {
 		margin-top: 20px;
-	}
+    }
+    .contimg{
+        display:none;
+    }
+    .contLogin{
+        width: 100%;
+    }
 }
 
 
