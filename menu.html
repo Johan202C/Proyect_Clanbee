@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Menu Desplegable</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/styleMenu.css">
+  <title>Document</title>
 </head>
 <body>
-    <div id="header">
-        <nav> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
-            <ul class="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Inicio</a>
-                    <ul>
-                        <li><a href="">incribirse</a></li>
-                        <li><a href="">Elige tu hobby o gusto favorito </a></li>
-                        <li><a href="">Proponer evento </a></li>
-                        <li><a href="">Encuentros sociales</a>
-                            <ul>
-                                <li><a href="">Cine</a></li>
-                                <li><a href="">Musica en vivi</a></li>
-                                <li><a href="">Tarde de cooffee</a></li>
-                                <li><a href="">Deporte</a></li>
-                                <li><a href="">Tarde de cine</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="">Blog</a>
-                   
-                </li>
-                <li><a href="">Contacto</a></li>
-                <p class="novedades"><i class="fa fa-bullhorn" aria-hidden="true"></i> Últimas novedades</p>
+  <nav class="nav">
+    <div class="container">
+        <div class="logo">
+          <img  src="./imagenes/imgClanBee.png">
+        </div>
+          <div>    
+          <img class="img1" src="./imagenes/1150626.png">
+          <img class="img2"src="./imagenes/configuración.svg">
+          <img class="img3"src="./imagenes/campana.svg">
+           </div> 
+          <form action="/my-handling-form-page" method="post">
+          <ul>                 
+           <li>
+             <label for="msg">Mensaje:</label>
+             <textarea id="msg" name="user_message"></textarea>
+           </li>
+          </ul>
+         </form>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="#">Bienvenidos</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">perfil</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
-           
-        </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+              </div>
+              
+        
     </div>
-    
+</nav>
+
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="menu.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
 </body>
 </html>

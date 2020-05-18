@@ -1,66 +1,177 @@
-* {
-    margin:0px;
-    padding:0px;
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
 }
-#header {
-    margin:auto;
-    width:100px;
-    font-family:Arial, Helvetica, sans-serif;
+.nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+  
+}
+.img {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+.img1 {
+    float: left;
+    width: 50px;
+    height: 60px;
+    padding-left: 3rem;
+}
+.img2 {
+    float: left;
+    width: 50px;
+    height: 60px;
+    padding-left: 90rem;
+}
+.img3 {
+    float: left;
+    width: 50px;
+    height: 60px;
+    padding-left: 10rem;
 }
 
-ul, ol {
-    list-style:none;
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 2.5rem;
+}
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 100px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color:#f4f4f4;
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    background-color: #ffc60b;
+    background-position: center top;
+    background-size:cover;
+}
+
+.navTrigger {
+    display: none;
 }
 
 .nav {
-    width:800px; /*Le establecemos un ancho*/
-    margin:0 auto; /*Centramos automaticamente*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.navTrigger {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
 }
 
-.nav > li {
-    float:left;
+.navTrigger i {
+    background-color: #fff;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
 }
+form {
+    margin: 0 auto;
+    width: 200px;
+     padding: 1em;
+    border-radius: 1em;
+    
+  }
+    ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+  
+  }
+   
+  
+  label {
+    display: flex;
+    width: 90px;
+    
+  }
+  
+  input, 
+  textarea {
 
-.nav li a {
-    background-color:#d12020;
-    color:#fff;
-    text-decoration:none;
-    padding:15px 20px;
-    display:block;
-}
+    font: 1em sans-serif;
+  
+    width: 300px;
+    box-sizing: border-box;
+  
 
-.nav li a:hover {
-    background-color:#434343;
-}
-
-.nav li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
-}
-
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-
-.nav li ul li ul {
-    right:-140px;
-    top:0px;
-}
-
-.fa-bullhorn:before {
-    content: "\f0a1";
-}
  
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+  }
+  
+  input:focus, 
+  textarea:focus {
+   
+    border-color: #000;
+    
+  }
+  
+  textarea {
+ 
+    vertical-align: top;
+  
+   
+    height: 5em;
+  }
+  
+  .button {
+        padding-left: 90px; 
+  }
+  
+ 
