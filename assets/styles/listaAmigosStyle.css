@@ -8,6 +8,11 @@ body{
     background-color: #f4f4f4 !important;
 }
 
+/* HEADER */
+
+
+
+/* MAIN */
 .cont{
     display: flex;
     flex-direction: column;
@@ -35,15 +40,144 @@ body{
     width: 30px;
 }
 
-.fb{
-    background-color: #444444;
-    display: flex;
+
+.friendCont{
+	background-color: #202020;
+	display: flex;
+	margin-bottom: 30px;
 }
 
-.img{
-    width: 100px;
+.imgCont{
+	display: flex;
+	justify-content: center;
 }
 
-.fb p{
-    color: #f4f4f4;
+.imgCont img{	
+	width: 250px;
+}
+
+.infoCont{
+	display: flex;
+	flex-direction: column;
+}
+
+.infoCont .title{
+	margin-top: 20px;
+	color: #f4f4f4;
+	font-size: 50px;
+}
+
+.infoCont .text{
+	color: #c7c7c7;
+}
+
+
+
+
+
+
+
+/*FOOTER */
+
+footer {
+	background: #202020;
+	color: white;
+}
+.contContenedor {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 30px;
+}
+.containerBody {
+	display: flex;
+	justify-content: space-between;
+}
+.column1 {
+	max-width: 400px;
+	align-self: center;
+}
+.column1 a {
+	text-decoration: none;
+}
+.column1 h1 {
+	font-size: 80px;
+	font-weight: 7;
+	color: white;
+}
+
+.column1 span {
+	color: #fdd100;
+}
+
+.column2 {
+	max-width: 400px;
+}
+.column2 h1 {
+	font-size: 22px;
+}
+.row {
+	margin-top: 20px;
+	display: flex;
+}
+.row img {
+	width: 36px;
+	height: 36px;
+}
+.row a {
+	text-decoration: none;
+	color: #c7c7c7;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.column3 {
+	max-width: 400px;
+}
+.column3 h1 {
+	font-size: 22px;
+}
+.row2 {
+	margin-top: 20px;
+	display: flex;
+}
+.row2 img {
+	width: 36px;
+	height: 36px;
+}
+.row2 a {
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 20px;
+	max-width: 140px;
+	color: white;
+}
+
+.containerBajo {
+	width: 100%;
+	background-color: yellow;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #101010;
+}
+.copyright a {
+	text-decoration: none;
+	color: #c7c7c7;
+	font-weight: bold;
+}
+
+.terminos a {
+	text-decoration: none;
+	color: #c7c7c7;
+}
+
+@media (max-width: 768px) {
+	.containerBody {
+		flex-wrap: wrap;
+	}
+	.column2,
+	.column3 {
+		margin-top: 20px;
+	}
 }
