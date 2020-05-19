@@ -98,6 +98,12 @@ footer {
 	text-decoration: none;
 	color: #c7c7c7;
 }
+.row a:hover,
+.row2 a:hover,
+.column1 a:hover {
+	text-decoration: none;
+	color: #c7c7c7;
+}
 
 @media (max-width: 768px) {
 	.containerBody {
