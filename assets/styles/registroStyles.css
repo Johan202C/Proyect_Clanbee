@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.body{
+    background-color:rgb(26, 26, 26);
+    display:flex;
+    justify-content: center;
+}
+.main{
+    max-width: 510px;
+    width:100%;
+    height: 1000px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    background-color:rgba(51, 51, 51, 0.568);
+}
+.contmain{
+    width:80%;
+}
+.contLogo{
+    text-align: center;
+}
+.imgLogoC{
+    width:100px;
+    height: 100px;
+}
+.rSocial{
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    height: 60px;
+}
+.imgSo{
+    width:50px;
+    height:50px;
+    margin:10px;
+    cursor:pointer;
+}
+.textRegistrate{
+    display:flex;
+    justify-content:flex-start;
+    color:white;
+    margin-top:35px;
+    font-size:15px;
+}
+
+.selectRegi{
+    /* margin-top:10px; */
+    text-align:center;
+    width:100%;
+    height: 30px;
+}
+
+.usario{
+    display:flex;
+
+}
+.inputRe{
+    width:50%;
+
+}
+.checkBox{
+    text-align:start;
+    padding:10px;
+    margin-top:37px;
+}
+
+.regionSelect,
+.inputRegi,
+.nameIn,
+.inp{
+    width: 100%;
+    height:50px;
+    margin-top:15px;
+    padding:10px 5px;
+    font-size: 17px;
+}
+
+.btnContinue{
+    width:100%;
+    padding:7px;
+    margin-top:20px;
+    font-size:20px;
+    font-weight: 510;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(27, 27, 27);
+    color:white;
+    opacity: .7;
+    border-style:none;
+}
+.btnContinue:hover{
+    cursor:pointer;
+    border-style: double;
+}
+
+.labelCheck{
+    color: white;
+    opacity:.5;
+}
