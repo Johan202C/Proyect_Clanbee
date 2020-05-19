@@ -1,0 +1,755 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #f4f4f4 !important;
+}
+/* _______________________________________________________menu */
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html, */
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 150px;
+	/* position: fixed; */
+	line-height: 65px;
+	background-color: #ffbe00;
+}
+
+.ContImgMenu {
+	width: 33%;
+}
+
+.logoImg {
+	height: 145px;
+	width: 430px;
+	display: flex;
+}
+.buscador {
+	display: flex;
+	/* width: 55%; */
+	justify-content: start;
+	align-items: center;
+}
+
+.menu {
+	width: 33%;
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+.navTrigger {
+	cursor: pointer;
+	width: 30px;
+	height: 25px;
+	margin: auto;
+	position: absolute;
+	right: 30px;
+	top: 0;
+	bottom: 0;
+}
+.imgMenu {
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+}
+.navlinks {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 100%;
+}
+.itemMenu {
+	width: 130px;
+	padding: 10px;
+}
+
+.itemMenu a {
+	text-decoration: none;
+	color: #000000;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.navTrigger {
+	cursor: pointer;
+	width: 30px;
+	height: 25px;
+	margin: auto;
+	position: absolute;
+	right: 30px;
+	top: 0;
+	bottom: 0;
+}
+
+.navlinks a {
+	width: 300%;
+	height: 100%;
+}
+.boton1 {
+	background-color: #feffdb;
+	width: 70%;
+	height: 30%;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+/* __________________________________________________________fin del menu */
+/*  contenedor main */
+.div {
+	display: flex;
+	flex-direction: row;
+}
+/* aside */
+.aside {
+	width: 30%;
+	padding-left: 30px;
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+}
+/*_________________________________________________ targeta premium */
+.card1 {
+	background: -moz-linear-gradient(
+		45deg,
+		rgba(243, 226, 199, 1) 0%,
+		rgba(182, 141, 76, 1) 0%,
+		rgba(193, 158, 103, 1) 41%,
+		rgba(233, 212, 179, 1) 100%
+	);
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+}
+.rebote {
+	animation: 2s rebote 1;
+}
+@keyframes rebote {
+	20%,
+	50%,
+	80% {
+		transform: translateY(0px);
+	}
+	40% {
+		transform: translateY(-45px);
+	}
+	60% {
+		transform: translateY(-25px);
+	}
+}
+.cardBody {
+	margin: auto;
+	align-self: center;
+}
+.btn {
+	margin-left: 50px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+.premium {
+	margin-left: 10px;
+	font-size: 40px;
+
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+.modo {
+	margin-left: 5px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #fdd100;
+}
+/* titulo principal */
+.titulo {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	margin-top: 15px;
+}
+.titulo h1 {
+	margin: auto;
+}
+/*________________________________________________ contenedor galeria */
+.contenedor {
+	display: flex;
+	width: 70%;
+	margin-left: 40px;
+	margin-top: 30px;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	border-radius: 3px;
+}
+.contenedor > a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.contenedor .img {
+	position: relative;
+	object-fit: cover;
+	overflow: hidden;
+	vertical-align: top;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+	margin-bottom: 30px;
+}
+
+.comentario {
+	background-color: #fdd100;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 85%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.comentario img {
+	width: 25px;
+	height: 25px;
+}
+/*___________________________________________________ cuadro */
+.cuadro {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 0;
+	transition: 0.6s;
+	overflow: hidden;
+}
+.descripcion {
+	color: #fdd100;
+	font-size: 30px !important;
+	font-weight: 300;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+.explicacion {
+	position: absolute;
+	color: white;
+	top: 30%;
+	left: 10px;
+}
+/*___________________________________________ imagen usuario */
+.fondoU {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+.contUsuario {
+	position: absolute;
+	width: 100%;
+	top: 20%;
+	display: flex;
+}
+.usuario {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.parrafoU {
+	margin-top: 0px;
+	margin-bottom: 0px !important;
+	cursor: pointer;
+	color: white;
+}
+.img:hover .cuadro {
+	height: 100%;
+}
+/* _____________________________________________efecto facebook */
+.ligth-box {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100vh;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: scale(0);
+	transition: transform 0.3s ease-in-out;
+}
+
+.ligth-box:target {
+	transform: scale(1);
+}
+.slide1 {
+	width: 70%;
+	height: 70%;
+}
+.ligth-box:hover a {
+	text-decoration: none;
+}
+.slide2 {
+	width: 50%;
+	height: 80%;
+	border-radius: 10px;
+}
+
+body article.ligth-box .close {
+	display: block;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	background: #fdd100;
+	color: white;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50%;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+.next {
+	display: block;
+	background-color: #5d6d7c;
+	color: #fdd100;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin: 0 10px;
+	text-decoration: none;
+	border-radius: 30%;
+}
+/* ___________________________________________________ventana emergente */
+.btnSpecial {
+	background-color: white;
+}
+.contModal {
+	opacity: 0;
+	visibility: hidden;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ventana {
+	width: 40%;
+	height: 50%;
+	background-color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	/* overflow: hidden; */
+	transition: transform 0.8s;
+	transform: translateY(0%);
+	border-radius: 10px;
+}
+.cerrar {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-color: #fdd100;
+	color: white;
+	line-height: 25px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.ventanaClose {
+	transform: translateY(-200%);
+}
+.imgVentana {
+	height: 30%;
+}
+.btnSpecial {
+	background-color: white;
+	margin-left: 80px;
+}
+.contModal {
+	opacity: 0;
+	visibility: hidden;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ventana {
+	width: 40%;
+	height: 91%;
+	background-color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	/* overflow: hidden; */
+	transition: transform 0.8s;
+	transform: translateY(0%);
+	border-radius: 10px;
+}
+.cerrar {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-color: #fdd100;
+	color: white;
+	line-height: 25px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.ventanaClose {
+	transform: translateY(-200%);
+}
+.imgVentana {
+	height: 60%;
+	margin-top: 30px;
+}
+/* _______________________________________________________targeta evento */
+.cardEventos {
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+	margin-top: 20px;
+	background-color: #fdd100 !important;
+}
+.userI {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.btnV {
+	margin-left: 3px;
+	margin-bottom: 10px;
+}
+/* ________________________________________________________usuarios que conoscas */
+.userNombre {
+	margin-left: 60px;
+}
+.contTarjetas {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tarjetas {
+	width: 100%;
+
+	max-width: 250px;
+
+	margin: 2px 15px;
+}
+.tarjetas:hover .arriba {
+	transform: translateY(0px);
+}
+.arriba {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	transform: translateY(20px);
+	transition: 0.2s;
+	margin-bottom: 5px;
+}
+.imgArriba {
+	width: 225px;
+	height: 225px;
+	border-radius: 7px;
+}
+
+.abajo {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: grey;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	transform: translateY(-100px);
+	transition: 0.2s;
+	margin: 0 13px;
+}
+.tarjetas:hover .abajo {
+	transform: translateY(0px);
+}
+.btnTarjeta {
+	margin-left: 0px;
+}
+/* ________________________________________boton */
+.contIrArriba {
+	position: fixed;
+	bottom: 50px;
+	right: 10px;
+	width: 70px;
+	height: 70px;
+	z-index: -1;
+}
+.BotonIrArriba {
+	width: 0;
+	height: 0;
+	background-color: blueviolet;
+	border-radius: 50%;
+	cursor: pointer;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	z-index: -1;
+	transition: 0.2s;
+}
+
+.irArriba {
+	position: absolute;
+	font-size: 27px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	color: white;
+	transition: 0.2s;
+	text-align: center;
+}
+
+.show {
+	z-index: 10;
+}
+
+.show .BotonIrArriba {
+	animation: popup 0.3s ease-in-out;
+	width: 70px;
+	height: 70px;
+	z-index: 11;
+}
+
+.show .irArriba {
+	transform: translate(-50%, -50%) scale(1);
+}
+/* _________________________________________________________footer */
+footer {
+	background: #202020;
+	color: white;
+}
+.contContenedor {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 30px;
+}
+.containerBody {
+	display: flex;
+	justify-content: space-between;
+}
+.column1 {
+	max-width: 400px;
+	align-self: center;
+}
+.column1 a {
+	text-decoration: none;
+}
+.column1 h1 {
+	font-size: 80px;
+	font-weight: 7;
+	color: white;
+}
+
+.column1 span {
+	color: #fdd100;
+}
+
+.column2 {
+	max-width: 400px;
+}
+.column2 h1 {
+	font-size: 22px;
+}
+.row {
+	margin-top: 20px;
+	display: flex;
+}
+.row img {
+	width: 36px;
+	height: 36px;
+}
+.row a {
+	text-decoration: none;
+	color: #c7c7c7;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.column3 {
+	max-width: 400px;
+}
+.column3 h1 {
+	font-size: 22px;
+}
+.row2 {
+	margin-top: 20px;
+	display: flex;
+}
+.row2 img {
+	width: 36px;
+	height: 36px;
+}
+.row2 a {
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 20px;
+	max-width: 140px;
+	color: white;
+}
+
+.containerBajo {
+	width: 100%;
+	background-color: yellow;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #101010;
+}
+.copyright a {
+	text-decoration: none;
+	color: #c7c7c7;
+	font-weight: bold;
+}
+
+.terminos a {
+	text-decoration: none;
+	color: #c7c7c7;
+}
+.row a:hover,
+.row2 a:hover,
+.column1 a:hover {
+	text-decoration: none;
+	color: #c7c7c7;
+}
+
+@keyframes popup {
+	0% {
+		width: 0;
+		height: 0;
+	}
+	50% {
+		width: 50px;
+		height: 50px;
+	}
+	100% {
+		width: 70px;
+		height: 70px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.contenedor {
+		display: flex;
+		flex-wrap: wrap;
+		width: 90%;
+		margin-left: 20px;
+	}
+
+	.img img {
+		width: 150px;
+		height: 150px;
+	}
+	.descripcion {
+		font-size: 20px !important;
+	}
+	.cuadro {
+		width: 100%;
+	}
+	.cuadro p {
+		font-size: 10px;
+	}
+
+	.comentario {
+		top: 87%;
+		height: 20px;
+	}
+	.comentario input {
+		width: 50%;
+		height: 12px;
+	}
+	.comentario img {
+		width: 15px;
+		height: 15px;
+	}
+	.aside {
+		display: none;
+	}
+	.imgExt {
+		display: none;
+	}
+	.ligth-box img {
+		/* width: 60%;
+		height: 40%; */
+		width: 250px;
+		height: 200px;
+	}
+	.usuario {
+		display: none;
+	}
+	.userNombre {
+		font-size: 20px;
+	}
+	.contTarjetas {
+		flex-wrap: wrap;
+	}
+	.tarjetas {
+		width: 100%;
+
+		max-width: 150px;
+	}
+	.imgArriba {
+		width: 135px;
+		height: 135px;
+	}
+	/* footer */
+	.containerBody {
+		flex-wrap: wrap;
+	}
+	.column2,
+	.column3 {
+		margin-top: 20px;
+	}
+	/* ________________________________________menu */
+	.ContImgMenu {
+		display: none;
+	}
+	.menu {
+		display: none;
+	}
+	.buscador {
+		justify-content: center;
+		text-align: center;
+		width: 100%;
+	}
+}
