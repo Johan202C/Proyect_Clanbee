@@ -26,12 +26,12 @@ html, */
 
 .logoImg {
 	height: 145px;
-	width: 430px;
+	width: 100%;
 	display: flex;
 }
 .buscador {
 	display: flex;
-	/* width: 55%; */
+	width: 33%;
 	justify-content: start;
 	align-items: center;
 }

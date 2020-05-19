@@ -91,6 +91,12 @@
     opacity: .7;
     border-style:none;
 }
+.btnConti{
+    text-decoration: none;
+    color: white;
+    border-style:none;
+    
+}
 .btnContinue:hover{
     cursor:pointer;
     border-style: double;

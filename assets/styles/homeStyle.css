@@ -200,8 +200,13 @@ body {
   border-bottom: 1px solid white;
   cursor: pointer;
 }
-.itemListaLateral:hover {
+.itemListaLateral,.itemListaLateralA:hover {
   color: rgb(238, 217, 29);
+  text-decoration: none;
+}
+.itemListaLateralA{
+  color: white;
+  
 }
 
 /* -----------aqui empieza el article ---------*/
@@ -417,5 +422,9 @@ footer {
   }
   .inf1{
       font-size: 15px;
+  }
+  .fotoPerfil{
+    width: 85%;
+    height: 170px;
   }
 }
