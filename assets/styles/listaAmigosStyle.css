@@ -1,18 +1,150 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body{
+/* body{
     background-color: #f4f4f4 !important;
-}
+} */
 
 /* HEADER */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+.contHeader{
+	width:100%;
+	height:230px;
+	display:flex;
+	
+}
+.nav {
+    display:flex;
+    width: 100%;
+    height: 150px;
+    /* position: fixed; */
+    line-height: 65px;
+    background-color: #FFBE00;
+}
 
+.img{
+    width: 33%;
+     }
+ 
+.logoImg{
+    height: 145px;
+    width: 100%;
+    display:flex;
+  
+}
+.buscador{
+    display: flex;
+    width: 33%;
+    justify-content: start;
+    align-items: center;
+}
+    
+.menu{
+    width: 33%;
+    text-decoration:none;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+
+       
+}
+.navTrigger {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+
+}
+.img1 {
+    width: 60px;
+    height: 60px;
+  margin-right: 20px;
+    
+}
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    
+   
+}
+.itemMenu {
+    width: 130px;
+    padding: 10px;
+   
+  }
+
+  .itemMenu a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 800;
+      }
+
+
+.navTrigger {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+}
+
+.navlinks a {
+    width: 300%;
+    height: 100%;
+   
+   }
+   .boton1 {
+       background-color: #Feffdb;
+       width: 70%;
+       height: 30%;
+       padding: 5px;
+       font-size: 18px;
+       border-radius: 5px;
+        }
+
+   @media screen and (max-width:768px){
+       .img {
+           display:none;           
+       }
+.menu {
+    display: none;
+}
+.buscador{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+       
+   }
 
 
 /* MAIN */
+
 .cont{
     display: flex;
     flex-direction: column;
