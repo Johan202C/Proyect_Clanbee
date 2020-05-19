@@ -25,7 +25,10 @@ body{
     width: 16%;
     height: 150px;
     text-align: center;
-   
+    cursor: pointer;
+}
+.connHobbi:hover{
+    transform: scale(1.05);
 }
 .itemHobbi{
     width:130px;
