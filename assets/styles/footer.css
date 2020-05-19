@@ -85,7 +85,7 @@ footer {
 	background-color: yellow;
 	display: flex;
 	justify-content: space-between;
-	padding: 10px;
+	padding: 9px;
 	background-color: #101010;
 }
 .copyright a {
