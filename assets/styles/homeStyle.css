@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* -----------Las imagenes de los hobbies (header) ---------*/
+body{
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 1510px;
+    justify-content: center;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    max-width: 1380px;
+    height: 200px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top:20px;
+    
+}
+.connHobbi{
+    width: 16%;
+    height: 150px;
+    text-align: center;
+   
+}
+.itemHobbi{
+    width:130px;
+    height:130px;
+    padding: 20px;
+    background-color: #25A27C;
+    border-radius: 5px;
+}
+.imgbike{
+    background-color:#3f3f44;
+    
+}
+
+.imgcoc{
+    background-color: #035aa6;
+}
+
+.imgCafe{
+    background-color: #202040;
+}
+.imgexer{
+    background-color: #e6cff8;
+}
+.imgshopi{
+    background-color:#F76868;
+}
+
+
+/* -----------aqui empieza el main ---------*/
+.main{
+    width: 100%;
+    max-width: 1380px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+/* -----------aqui empieza el section---------*/
+.section{
+    width:30%;
+    height:1200px;
+    background-color:teal;
+}
+
+/* -----------aqui empieza el article ---------*/
+.article{
+    width: 70%;
+    height: 1200px;
+    background-color:tomato;
+    text-align: center;
+}
+
+.contPost{
+    width: 80%;
+    height: 50px;
+    background-color: violet;
+
+}
