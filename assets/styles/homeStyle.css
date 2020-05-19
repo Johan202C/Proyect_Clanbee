@@ -68,6 +68,38 @@ body{
     width:30%;
     height:1200px;
     background-color:teal;
+   
+}
+.ContfotoPerfil{
+    max-width:200px;
+    height: 200px;
+    margin-left:20%;
+    margin-top:20px;
+}
+
+.fotoPerfil{
+    width:100%;
+    height:200px;
+    border-radius:20px;
+}
+.conOnly-City{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.online{
+    margin-top:20px;
+    margin-right: 10px;
+}
+.porwerBotton{
+    width: 25px;
+    height: 25px;
+}
+.inf1{
+    margin-top:20px;
+    margin-right: 40px;
+    font-size: 20px;
+    
 }
 
 /* -----------aqui empieza el article ---------*/
