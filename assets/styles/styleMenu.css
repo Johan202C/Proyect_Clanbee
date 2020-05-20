@@ -1,129 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
-html,
-* {margin: 0;
+*{margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-family: "Quicksand", sans-serif;
-    font-size: 62.5%;
-    font-size: 10px;
-}
-.nav {
-    display:flex;
-    width: 100%;
-    height: 150px;
-    position: fixed;
-    line-height: 65px;
-    background-color: #FFBE00;
-}
 
-.img{
-    width: 33%;
-     }
- 
-.logoImg{
-    height: 145px;
-    width: 430px;
-    display:flex;
-  
-}
-.buscador{
-    display: flex;
-    width: 55%;
-    justify-content: start;
-    align-items: center;
-}
+/*----------- Menu responsive */
+
+.menuRespons{
+    height: 90px;
+	width: 100%;
+	position: sticky;
+	bottom:0;
+	z-index: 100;
     
-.menu{
-    width: 33%;
-    text-decoration:none;
-    padding: 10px;
+}
+.connMenuResp{
+    width: 100%;
+    height: 100px;
+    background-color: #fdd100;
     display: flex;
-    align-items:center;
-
-       
+    justify-content: space-around;
+    
 }
-.navTrigger {
-    cursor: pointer;
-    width: 30px;
-    height: 25px;
-    margin: auto;
-    position: absolute;
-    right: 30px;
-    top: 0;
-    bottom: 0;
-
-}
-.img1 {
-    width: 60px;
+.img1Menu{
+    width: 93%;
     height: 60px;
-  margin-right: 20px;
-    
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
 }
-.navlinks {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 100%;
-    
-   
-}
-.itemMenu {
-    width: 130px;
-    padding: 10px;
-   
-  }
-
-  .itemMenu a {
-    text-decoration: none;
-    color: #000000;
-    line-height: 30px;
-    font-size: 20px;
-    font-weight: 800;
-      }
-
-
-.navTrigger {
-    cursor: pointer;
-    width: 30px;
-    height: 25px;
-    margin: auto;
-    position: absolute;
-    right: 30px;
-    top: 0;
-    bottom: 0;
+.img1Menu:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }
 
-.navlinks a {
-    width: 300%;
-    height: 100%;
-   
-   }
-   .boton1 {
-       background-color: #Feffdb;
-       width: 70%;
-       height: 30%;
-       padding: 5px;
-       font-size: 18px;
-       border-radius: 5px;
-        }
-
-   @media screen and (max-width:768px){
-       .img {
-           display:none;           
-       }
-.menu {
-    display: none;
-}
-.buscador{
-    justify-content: center;
-    text-align: center;
-    width: 100%;
+@media screen and (min-width: 768px){
+    .menuRespons{
+		display:none;
+		
+    }
 }
 
-       
-   }
 
 
 
