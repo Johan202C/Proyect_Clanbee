@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/styles/homeStyle.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/perfilStyle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>Home</title>
-  </head>
-  <body>
-      <menu class="contMenu">
+    <title>Perfil</title>
+</head>
+<body>
+    <menu class="contMenu">
         <nav class="nav">
    
           <div class="img">
@@ -29,45 +29,49 @@
           </div>
       </nav>
       </menu>
-    <header class="header">
-      <div class="connHobbi">
-        <img src="./assets/pics/home/bike.png" alt="bike"class="itemHobbi imgbike"/>
-        <div class="titleHobbi">
-            DOS RUEDAS
+    <nav class="contPortada">
+        <div class="contImgPor">
+            <img src="./assets/pics/perfil/mark-hang-fung-so-63WxPoyznRQ-unsplash.jpg" alt="" class="imgPor">
         </div>
-      </div>
-      <div class="connHobbi">
-        <img src="./assets/pics/home/cocktail.png" alt="coctail"class="itemHobbi imgcoc"/>
-        <div class="titleHobbi">
-            UNA NOMAS 
+        
+    </nav>
+    <div class="contEditPor">
+        <div class="nameeUser">
+            <p class="nomProfe">Artista Tatuador</p>
         </div>
-      </div>
-      <div class="connHobbi">
-        <img src="./assets/pics/home/coffee.png" alt="coffe"class="itemHobbi imgCafe"/>
-        <div class="titleHobbi">
-            CAFÉ
+        <div class="nameeUser2">
+            <a href=""><img class="editImg"src="./assets/pics/perfil/edi.jpg" alt=""></a>
+            <p class="txteditport">Editar foto de portada</p>
         </div>
-      </div>
-      <div class="connHobbi">
-        <img src="./assets/pics/home/exercise.png" alt="excercise"class="itemHobbi imgexer"/>
-        <div class="titleHobbi">
-            TRAINING
-        </div>
-      </div>
-      <div class="connHobbi">
-        <img src="./assets/pics/home/open-book.png" alt="food"class="itemHobbi"/>
-        <div class="titleHobbi">
-            ESTUDIOS 
-        </div>
-      </div>
-      <div class="connHobbi">
-        <img src="./assets/pics/home/shopping-bag.png" alt="shoping"class="itemHobbi imgshopi"/>
-        <div class="titleHobbi">
-            SHOPPING
-        </div>
-      </div>
-    </header>
-    <main class="main">
+    </div>
+    <header class="barHeader">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand aBrand" href="#">Archivado</a>
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="navbar-brand aBrand" href="#">Editar detalles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand aBrand" href="#">Importante</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand aBrand" href="#">Configuraciones</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+      </header>
+<!--    ----------------------   Aqui empieza el main -->
+
+      <main class="main">
         <section class="section">
           <div class="ContfotoPerfil">
             <img src="./assets/pics/galeria/Thombre2.jpg" alt="" class="fotoPerfil">
@@ -96,28 +100,50 @@
         </section>
         <article class="article">
             <div class="contPost">
+                <p class="misGusto">MIS GUSTOS</p>
+                <!---------------El header de los gustos --> 
+                <header class="header">
+                    <div class="connHobbi">
+                      <img src="./assets/pics/home/bike.png" alt="bike"class="itemHobbi imgbike"/>
+                      <div class="titleHobbi">
+                          DOS RUEDAS
+                      </div>
+                    </div>
+                    <div class="connHobbi">
+                      <img src="./assets/pics/home/cocktail.png" alt="coctail"class="itemHobbi imgcoc"/>
+                      <div class="titleHobbi">
+                          UNA NOMAS 
+                      </div>
+                    </div>
+                    
+                    <div class="connHobbi">
+                      <img src="./assets/pics/home/exercise.png" alt="excercise"class="itemHobbi imgexer"/>
+                      <div class="titleHobbi">
+                          TRAINING
+                      </div>
+                    </div>
+                    
+                  </header>
+                  <div class="divMisp">
+                    <p class="pMisp">MIS PUBLICACIONES</p>
+                  </div>
+                  
               <!-- Aqui empiezan las cards -->
-              <div class="card mb-3  guter" style="max-width: 700px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="./assets/pics/galeria/GUser1.jpg" class="card-img" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">El centro historico</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 2 mins ago</small></p>
-                    </div>
-                    <div class="iconsPost">
-                      <img src="./assets/pics/home/1077035.png" alt="" class="incon1">
-                      <img src="./assets/pics/home/1078011.png" alt="" class="incon1">
-                      <img src="./assets/pics/home/1828960.png" alt="" class="incon1">
-                    </div>
-                  </div>
+              <div class="media">
+                <img src="./assets/pics/galeria/Thombre2.jpg" class="align-self-center mr-3 imgpost" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0">Center-aligned media</h5>
+                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
-                <div class="uuser">
-                  <img class="porwerBotton"src="./assets/pics/home/power.png" alt="">
-                  <a class="uss" href="">Sebastian</a>
+              </div>
+
+              <div class="media">
+                <img src="./assets/pics/galeria/Thombre2.jpg" class="align-self-center mr-3 imgpost" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0">Center-aligned media</h5>
+                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
               </div>
 
@@ -232,15 +258,15 @@
 				</div>
 			</div>
     </footer>
-		<!------------- Menu responsive  -->
+     <!------------- Menu responsive  -->
 		<nav class="menuRespons">
 			<div class="connMenuResp">
 			  <div class="hom"><a href="./home.html"><img src="./assets/pics/MENU/home.png" alt="" class="img1Menu"></a> </div>
 			  <div class="mns"><a href="./"><img src="./assets/pics/MENU/mns.png" alt="" class="img1Menu"></a> </div>
 			  <div class="even"><a href="./"><img src="./assets/pics/MENU/even.png" alt="" class="img1Menu"></a> </div>
-			  <div class="per"><a href="./"><img src="./assets/pics/MENU/user.png" alt="" class="img1Menu"></a> </div>
+			  <div class="per"><a href="./perfil.html"><img src="./assets/pics/MENU/user.png" alt="" class="img1Menu"></a> </div>
 			</div>
 		  
-		  </nav>
-  </body>
+		</nav> 
+</body>
 </html>

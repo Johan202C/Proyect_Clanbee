@@ -758,7 +758,7 @@ footer {
 .menuRespons{
     height: 90px;
 	width: 100%;
-	position: sticky;
+	position:sticky;
 	bottom:0;
 	z-index: 100;
     

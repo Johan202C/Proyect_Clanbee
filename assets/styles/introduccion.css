@@ -13,7 +13,7 @@ html {
 }
 
 section {
-	height: 700px;
+	height: 750px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;

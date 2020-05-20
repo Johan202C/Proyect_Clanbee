@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* -------------Aqui empieza el menu */
+  .contMenu {
+    max-width: 1510px;
+    width: 100%;
+  }
+  .nav {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    line-height: 65px;
+    background-color: #ffbe00;
+  }
+  
+  .img {
+    width: 33%;
+  }
+  
+  .logoImg {
+    height: 145px;
+    width: 430px;
+    display: flex;
+  }
+  .buscador {
+    display: flex;
+    width: 33%;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .menu {
+    width: 33%;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .boton1 {
+    background-color: #feffdb;
+    width: 70%;
+    height: 30%;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .itemMenu {
+    width: 130px;
+    padding: 10px;
+  }
+  
+  .itemMenu a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .img1 {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  .navlinks {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+  }
+  .itemMenu {
+    width: 130px;
+    padding: 10px;
+  }
+  /* --------------aqui empieza el nav que contiene la portada */
+  .contPortada{
+      width: 1510px;
+      width: 100%;
+      height: 420px;
+      display: flex;
+      justify-content: center;
+  }
+  .contImgPor{
+    width: 100%;
+    height: 580%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .contEditPor{
+    max-width: 1350px;
+    width: 100%;
+    display: flex;
+    height: 80px;
+      
+  }
+  .txteditport{
+      margin-top: 24px;
+  }
+  .imgPor{
+      width: 80%;
+      height: 400px;
+      border-radius:0 0 20px 20px;
+  }
+  .nameeUser{
+      width: 50%;
+      height: 40px;
+      text-align: center;
+  }
+  .nameeUser2{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+}
+  .editImg{
+      width: 60px;
+      height: 60px;
+  }
+  .nomProfe{
+      font-size: 50px;
+  }
+  
+  /* -----------Las imagenes de los hobbies (header) ---------*/
+
+  .header {
+    width: 100%;
+    max-width: 1380px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .connHobbi {
+    width: 16%;
+    height: 150px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .connHobbi:hover {
+    transform: scale(1.05);
+  }
+  .itemHobbi {
+    width: 130px;
+    height: 130px;
+    padding: 20px;
+    background-color: #25a27c;
+    border-radius: 5px;
+  }
+  .imgbike {
+    background-color: #3f3f44;
+  }
+  
+  .imgcoc {
+    background-color: #035aa6;
+  }
+  
+  .imgCafe {
+    background-color: #202040;
+  }
+  .imgexer {
+    background-color: #e6cff8;
+  }
+  .imgshopi {
+    background-color: #f76868;
+  }
+  .misGusto{
+      font-size: 40px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .divMisp{
+      width: 1510px;
+      width: 100%;
+      height: 70px;
+      flex-wrap: wrap;
+      text-align: center;
+      padding: 10px;
+  }
+  .pMisp{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .imgpost{
+      width: 80px;
+      height: 80px;
+
+  }
+  .media{
+      background-color: rgb(153, 149, 149);
+      padding: 10px;
+      border-style:dashed;
+      margin-top: 20px;
+  }
+  /* <!--    ----------------------   Aqui empieza el main --> */
+  .main {
+    width: 100%;
+    max-width: 1380px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .guter{
+      margin-top: 20px;
+  }
+  
+  /* -----------aqui empieza el section---------*/
+  .section {
+    width: 30%;
+    height: 1500px;
+    background-color: #3f3f44;
+  }
+  .ContfotoPerfil {
+    max-width: 200px;
+    width: 100%;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+  
+  .fotoPerfil {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .conOnly-City {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .online {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .porwerBotton {
+    width: 25px;
+    height: 25px;
+  }
+  .inf1 {
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 20px;
+  }
+  .contLista {
+    margin-top: 30px;
+    padding-left: 70px;
+    text-align: start;
+    /* background-color: #035aa6; */
+    color: white;
+    font-size: 20px;
+  }
+  .contMenuLateral {
+    width: 80%;
+    padding: 10px;
+  }
+  .itemListaLateral {
+    width: 70%;
+    list-style: none;
+    padding: 15px;
+    margin-top: 8px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+  }
+  .itemListaLateral,.itemListaLateralA:hover {
+    color: rgb(238, 217, 29);
+    text-decoration: none;
+  }
+  .itemListaLateralA{
+    color: white;
+    
+  }
+  
+  /* -----------aqui empieza el article ---------*/
+  .article {
+    width: 70%;
+    height: 1220px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contPost {
+    width: 100%;
+    height: 50px;
+    background-color: #ecfbfc;
+    padding: 10px;
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    height: 300px;
+  }
+  /* --------------Aqui empeiza los post */
+  .incon1 {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .incon1:hover {
+    transform: scale(1.08);
+  }
+  
+  .iconsPost {
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .uuser {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .uss {
+    opacity: 1;
+    display: inline;
+    text-decoration: none;
+  }
+  .NameUserr {
+    margin-left: 25%;
+  }
+  .card-img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .aName {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px 5px 5px 0px;
+  }
+  .barHeader{
+    width: 1380px;
+  }
+  .navbar{
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .aBrand:hover{
+      color:#ffbe00 !important;
+  }
+
+/* ----------Menu normal */
+  @media screen and (max-width: 768px) {
+    .img {
+      display: none;
+    }
+    .menu {
+      display: none;
+    }
+    .buscador {
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+    .header{
+        height: 490px;
+    }
+    .main{
+      height: 1220px;
+    }
+    .card-img{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .guter{
+        height: 390px !important;
+    }
+    .ContfotoPerfil{
+        margin-left: 6%;
+    }
+    .contLista{
+        padding-left:2px;
+    }
+    .inf1{
+        font-size: 15px;
+    }
+    .fotoPerfil{
+      width: 85%;
+      height: 170px;
+    }
+    .pMisp{
+        font-size: 30px;
+    }
+    .connHobbi{
+        width: 36%;
+    }
+    .section{
+        height: 800px;
+    }
+    .contPost{
+        height: 2320px;
+    }
+  }
+  /* -------------------aqui empieza el footer -----------------*/
+footer {
+    background: #202020;
+    color: white;
+    max-width: 1510px;
+    width: 100%;
+  }
+  .contContenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+  }
+  .containerBody {
+    display: flex;
+    justify-content: space-between;
+  }
+  .column1 {
+    max-width: 400px;
+    align-self: center;
+  }
+  .column1 a {
+    text-decoration: none;
+  }
+  .column1 h1 {
+    font-size: 80px;
+    font-weight: 7;
+    color: white;
+  }
+  
+  .column1 span {
+    color: #fdd100;
+  }
+  
+  .column2 {
+    max-width: 400px;
+  }
+  .column2 h1 {
+    font-size: 22px;
+  }
+  .row {
+    margin-top: 20px;
+    display: flex;
+  }
+  .row img {
+    width: 36px;
+    height: 36px;
+  }
+  .row a {
+    text-decoration: none;
+    color: #c7c7c7;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .column3 {
+    max-width: 400px;
+  }
+  .column3 h1 {
+    font-size: 22px;
+  }
+  .row2 {
+    margin-top: 20px;
+    display: flex;
+  }
+  .row2 img {
+    width: 36px;
+    height: 36px;
+  }
+  .row2 a {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+    color: white;
+  }
+  
+  .containerBajo {
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #101010;
+  }
+  .copyright a {
+    text-decoration: none;
+    color: #c7c7c7;
+    font-weight: bold;
+  }
+  
+  .terminos a {
+    text-decoration: none;
+    color: #c7c7c7;
+  }
+  
+  /* responsive de el footer ---------------*/
+
+@media (max-width: 768px) {
+    .containerBody {
+      flex-wrap: wrap;
+    }
+    .column2,
+    .column3 {
+      margin-top: 20px;
+    }
+    .contimg {
+      display: none;
+    }
+    .contLogin {
+      width: 100%;
+    }
+    .connHobbi{
+        width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .img {
+      display: none;
+    }
+    .menu {
+      display: none;
+    }
+    .buscador {
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+    .header{
+        height: 490px;
+    }
+    .main{
+      height: 2320px;
+    }
+    .card-img{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .guter{
+        height: 390px !important;
+    }
+    .ContfotoPerfil{
+        margin-left: 6%;
+    }
+    .contLista{
+        padding-left:2px;
+    }
+    .inf1{
+        font-size: 15px;
+    }
+    .fotoPerfil{
+      width: 85%;
+      height: 170px;
+    }
+  }
+  
+  /*----------- Menu responsive */
+  
+  .menuRespons{
+    height: 90px;
+  width: 100%;
+  position: sticky;
+  bottom:0;
+  z-index: 100;
+    
+  }
+  .connMenuResp{
+    width: 100%;
+    height: 100px;
+    background-color: #fdd100;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .img1Menu{
+    width: 93%;
+    height: 60px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  .img1Menu:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+  }
+  
+  @media screen and (min-width: 768px){
+    .menuRespons{
+    display:none;
+    
+    }
+  }
+  

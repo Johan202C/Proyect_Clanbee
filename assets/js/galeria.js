@@ -35,7 +35,7 @@ for (let j = 0; j < abajo.length; j += 1) {
 window.onscroll = function () {
 	if (
 		document.documentElement.scrollTop > 546 &&
-		document.documentElement.scrollTop < 820
+		document.documentElement.scrollTop < 1100
 	) {
 		document.querySelector('.contIrArriba').classList.add('show');
 	} else {
