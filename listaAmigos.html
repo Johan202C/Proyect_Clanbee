@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/listaAmigosStyle.css">
-    <link rel="icon" href="./assets/pics/lista/listaAmigos/favicon.png" type="image/png" />
+    <link rel="icon" href="./assets/pics/listaAmigos/favicon.png" type="image/png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Amigos</title>
@@ -13,23 +13,47 @@
 
 <body>
 
+    <header class="contHeader">
+        <nav class="nav">
+   
+            <div class="img">
+            <img class="logoImg"src="./assets/pics/menu/beeTxtWhite2.png" alt="">
+            </div>
+            <div class="buscador">
+              <img class ="img1"src="./assets/pics/menu/1150626.png" alt="">
+        <input class="boton1"type="text" placeholder="Buscar">
+        
+            </div>
+            <div class="menu">
+              <ul class="navlinks">
+                <li class="itemMenu"><a href="#">Home</a></li>
+                <li class="itemMenu"><a href="#">Mensajes</a></li>
+                <li class="itemMenu"><a href="#">Eventos</a></li>
+                <li class="itemMenu"><a href="#">Perfil</a></li>
+            </ul>
+        
+            </div>
+        </nav>
+    </header>
+    
+
     <main class="main">
         <div class="container cont">
             <div class="upCont">
-                <div class="col-4">
+                <div class="col-6 col-md-4">
                     <h3>AMIGOS</h3>
                 </div>
-                <div class="col-8">
+                <div class="col-6 col-md-8>
                     <a href=""><img src="./assets/pics/listaAmigos/zoom.png" alt="Lupa" class="lupa"></a>
                     <input type="search" placeholder="Buscar Amigo(No funcional)">
                 </div>
             </div>
 
             <div class="friendCont">
-                <div class="imgCont col-4">
+                <div class="imgCont col-6  col-md-4">
                     <img src="./assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.29 (1).jpeg" alt="">
                 </div>
-                <div class="infoCont col-8">
+                <div class="infoCont col-6 col-md-8">
                     <p class="title">Valeria Fernandez</p>
                     <p class="text">Hobbies en común:</p>
                     <div class="botones">
@@ -41,10 +65,10 @@
             </div>
 
             <div class="friendCont">
-                <div class="imgCont col-4">
+                <div class="imgCont col-6  col-md-4">
                     <img src="./assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.29 (2).jpeg" alt="">
                 </div>
-                <div class="infoCont col-8">
+                <div class="infoCont col-6 col-md-8">
                     <p class="title">Fabian Avendaño</p>
                     <p class="text">Hobbies en común:</p>
                     <div class="botones">
@@ -56,10 +80,10 @@
             </div>
 
             <div class="friendCont">
-                <div class="imgCont col-4">
+                <div class="imgCont col-6  col-md-4">
                     <img src="./assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.30 (5).jpeg" alt="">
                 </div>
-                <div class="infoCont col-8">
+                <div class="infoCont col-6 col-md-8">
                     <p class="title">Camila López</p>
                     <p class="text">Hobbies en común:</p>
                     <div class="botones">
@@ -71,10 +95,10 @@
             </div>
 
             <div class="friendCont">
-                <div class="imgCont col-4">
+                <div class="imgCont col-6  col-md-4">
                     <img src="assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.31 (1).jpeg" alt="">
                 </div>
-                <div class="infoCont col-8">
+                <div class="infoCont col-6 col-md-8">
                     <p class="title">Luisa Rodriguez</p>
                     <p class="text">Hobbies en común:</p>
                     <div class="botones">
@@ -86,10 +110,10 @@
             </div>
 
             <div class="friendCont">
-                <div class="imgCont col-4">
+                <div class="imgCont col-6  col-md-4">
                     <img src="assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.30 (6).jpeg" alt="">
                 </div>
-                <div class="infoCont col-8">
+                <div class="infoCont col-6 col-md-8">
                     <p class="title">Cristian Guzman</p>
                     <p class="text">Hobbies en común:</p>
                     <div class="botones">
@@ -165,6 +189,11 @@
         </div>
     </footer>
 
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="menu.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
