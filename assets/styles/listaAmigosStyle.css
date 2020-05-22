@@ -11,203 +11,191 @@
 /* HEADER */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 html,
-* {margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 body {
-    font-family: "Quicksand", sans-serif;
-    font-size: 62.5%;
-    font-size: 10px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 62.5%;
+	font-size: 10px;
 }
-.contHeader{
-	width:100%;
-	height:230px;
-	display:flex;
-	
+.contHeader {
+	width: 100%;
+	height: 230px;
+	display: flex;
 }
 .nav {
-    display:flex;
-    width: 100%;
-    height: 150px;
-    /* position: fixed; */
-    line-height: 65px;
-    background-color: #FFBE00;
+	display: flex;
+	width: 100%;
+	height: 150px;
+	/* position: fixed; */
+	line-height: 65px;
+	background-color: #ffbe00;
+	justify-content: flex-start;
 }
 
-.img{
-    width: 33%;
-     }
- 
-.logoImg{
-    height: 145px;
-    width: 100%;
-    display:flex;
-  
+.img {
+	width: 33%;
 }
-.buscador{
-    display: flex;
-    width: 33%;
-    justify-content: start;
-    align-items: center;
-}
-    
-.menu{
-    width: 33%;
-    text-decoration:none;
-    padding: 10px;
-    display: flex;
-    align-items:center;
 
-       
+.logoImg {
+	height: 145px;
+	width: 100%;
+	display: flex;
+}
+.buscador {
+	display: flex;
+	width: 30%;
+	justify-content: start;
+	align-items: center;
+}
+
+.menu {
+	width: 33%;
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+.nameUser {
+	line-height: 1;
+}
+.picUser {
+	cursor: pointer;
+	width: 40px;
 }
 .navTrigger {
-    cursor: pointer;
-    width: 30px;
-    height: 25px;
-    margin: auto;
-    position: absolute;
-    right: 30px;
-    top: 0;
-    bottom: 0;
-
+	cursor: pointer;
+	width: 30px;
+	height: 25px;
+	margin: auto;
+	position: absolute;
+	right: 30px;
+	top: 0;
+	bottom: 0;
 }
 .img1 {
-    width: 60px;
-    height: 60px;
-  margin-right: 20px;
-    
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
 }
 .navlinks {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 100%;
-    
-   
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 100%;
 }
 .itemMenu {
-    width: 130px;
-    padding: 10px;
-   
-  }
+	width: 130px;
+	padding: 10px;
+}
 
-  .itemMenu a {
-    text-decoration: none;
-    color: #000000;
-    line-height: 30px;
-    font-size: 20px;
-    font-weight: 800;
-      }
-
+.itemMenu a {
+	text-decoration: none;
+	color: #000000;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 800;
+}
 
 .navTrigger {
-    cursor: pointer;
-    width: 30px;
-    height: 25px;
-    margin: auto;
-    position: absolute;
-    right: 30px;
-    top: 0;
-    bottom: 0;
+	cursor: pointer;
+	width: 30px;
+	height: 25px;
+	margin: auto;
+	position: absolute;
+	right: 30px;
+	top: 0;
+	bottom: 0;
 }
 
 .navlinks a {
-    width: 300%;
-    height: 100%;
-   
-   }
-   .boton1 {
-       background-color: #Feffdb;
-       width: 70%;
-       height: 30%;
-       padding: 5px;
-       font-size: 18px;
-       border-radius: 5px;
-        }
-
-   @media screen and (max-width:768px){
-       .img {
-           display:none;           
-       }
-.menu {
-    display: none;
+	width: 300%;
+	height: 100%;
 }
-.buscador{
-    justify-content: center;
-    text-align: center;
-    width: 100%;
+.boton1 {
+	background-color: #feffdb;
+	width: 70%;
+	height: 30%;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 5px;
 }
 
-       
-   }
-
+@media screen and (max-width: 768px) {
+	.img {
+		display: none;
+	}
+	.menu {
+		display: none;
+	}
+	.buscador {
+		justify-content: center;
+		text-align: center;
+		width: 100%;
+	}
+}
 
 /* MAIN */
 
-.cont{
-    display: flex;
-    flex-direction: column;
+.cont {
+	display: flex;
+	flex-direction: column;
 }
 
-.upCont{
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
+.upCont {
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
 }
 
-.upCont h3{
-    margin: 0 25px;
-    font-size: 50px;
+.upCont h3 {
+	margin: 0 25px;
+	font-size: 50px;
 }
 
-.upCont div input{
-    height: 30px;
-    width: 80%;
+.upCont div input {
+	height: 30px;
+	width: 80%;
 }
 
-.lupa{
-    width: 30px;
+.lupa {
+	width: 30px;
 }
 
-
-.friendCont{
+.friendCont {
 	background-color: #202020;
 	display: flex;
 	margin-bottom: 30px;
 }
 
-.imgCont{
+.imgCont {
 	display: flex;
 	justify-content: center;
 }
 
-.imgCont img{	
+.imgCont img {
 	width: 250px;
 }
 
-.infoCont{
+.infoCont {
 	display: flex;
 	flex-direction: column;
 }
 
-.infoCont .title{
+.infoCont .title {
 	margin-top: 20px;
 	color: #f4f4f4;
 	font-size: 50px;
 }
 
-.infoCont .text{
+.infoCont .text {
 	color: #c7c7c7;
 }
-
-
-
-
-
-
 
 /*FOOTER */
 
@@ -316,36 +304,33 @@ footer {
 
 /*----------- Menu responsive */
 
-.menuRespons{
-    height: 90px;
+.menuRespons {
+	height: 90px;
 	width: 100%;
 	position: sticky;
-	bottom:0;
+	bottom: 0;
 	z-index: 100;
-    
 }
-.connMenuResp{
-    width: 100%;
-    height: 100px;
-    background-color: #fdd100;
-    display: flex;
-    justify-content: space-around;
-    
+.connMenuResp {
+	width: 100%;
+	height: 100px;
+	background-color: #fdd100;
+	display: flex;
+	justify-content: space-around;
 }
-.img1Menu{
-    width: 93%;
-    height: 60px;
-    margin-top: 10px;
-    transition: 0.3s ease-in-out;
+.img1Menu {
+	width: 93%;
+	height: 60px;
+	margin-top: 10px;
+	transition: 0.3s ease-in-out;
 }
-.img1Menu:hover{
-    transform: scale(1.1);
-    transition: 0.5s ease-in-out;
+.img1Menu:hover {
+	transform: scale(1.1);
+	transition: 0.5s ease-in-out;
 }
 
-@media screen and (min-width: 768px){
-    .menuRespons{
-		display:none;
-		
-    }
+@media screen and (min-width: 768px) {
+	.menuRespons {
+		display: none;
+	}
 }

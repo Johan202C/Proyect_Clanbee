@@ -16,7 +16,7 @@ body{
 }
 .contmain{
     width: 100%;
-    height: 1650px;
+    height: 1150px;
 }
 .title{
     text-align: center;
@@ -39,14 +39,15 @@ body{
 }
 
 .container .card{
-    width: 330px;
-    height: 430px;
+    width: 30%;
+    height: 250px;
     border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    cursor:pointer;
 }
 
 .container .card:hover{
@@ -55,8 +56,8 @@ body{
 }
 
 .container .card img{
-    width: 230px;
-    height: 220px;
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -234,7 +235,7 @@ footer {
     .main{
       height: 1220px;
     }
-    .card-img{
+    .card .img{
         width: 100px !important;
         height: 100px !important;
     }
@@ -254,10 +255,17 @@ footer {
       width: 85%;
       height: 170px;
     }
+    .contmain{
+      height: 2000px;
+    }
   }
 
 
+/* ------Aqui empieza el javascript */
 
+.abajoD{
+  background-color:rgb(247, 165, 165);
+}
 
 
 

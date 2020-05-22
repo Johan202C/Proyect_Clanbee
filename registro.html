@@ -1,67 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/registroStyles.css">
-    <link rel="icon" href="./assets/pics/listaAmigos/favicon.png" type="image/png" />
-    <title>Registro</title>
-</head>
-<body class="body">
-    <main class="main">
-        <div class="contmain">
-            <div class="contLogo">
-                <img class="imgLogoC"src="./assets/pics/registro/logoBee.png" alt="logo de Clanbee">
-            </div>
-            <div class="rSocial">
-                <img src="./assets/pics/footer/facebook.png" alt="" class="imgSo">
-                <img src="./assets/pics/footer/github.png" alt="" class="imgSo">
-                <img src="./assets/pics/footer/instagram.png" alt="" class="imgSo">
-                <img src="./assets/pics/footer/youtube.png" alt="" class="imgSo">
-            </div>
-            <div class="titleRegis">
-                <p class="textRegistrate">REGÍSTRATE</p>
-            </div>
-            <div class="selectRegi inputRegi">
-                <select class="regionSelect">
-                    <option value="option0">Chile</option>
-                    <option value="option0">Argentina</option>
-                    <option value="option0">Perú</option>
-                    <option value="option0">Colombia</option>
-                </select>
-            </div>
-            <div class="usario inputRegi">
-                <div class="inputRe">
-                    <input class="nameIn"type="text" placeholder="*Nombre">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/styles/registroStyles.css">
+        <link rel="icon" href="./assets/pics/listaAmigos/favicon.png" type="image/png" />
+        <title>Registro</title>
+    </head>
+
+    <body class="body">
+        <main class="main">
+            <div class="contmain">
+                <div class="contLogo">
+                    <img class="imgLogoC" src="./assets/pics/registro/logoBee.png" alt="logo de Clanbee">
                 </div>
-                <div class="inputRe">
-                    <input class="nameIn"type="text" placeholder="*Apellido">
+                <div class="rSocial">
+                    <img src="./assets/pics/footer/facebook.png" alt="" class="imgSo">
+                    <img src="./assets/pics/footer/github.png" alt="" class="imgSo">
+                    <img src="./assets/pics/footer/instagram.png" alt="" class="imgSo">
+                    <img src="./assets/pics/footer/youtube.png" alt="" class="imgSo">
                 </div>
+                <div class="titleRegis">
+                    <a href="index.html" class="back">volver</a>
+                    <p class="textRegistrate">REGÍSTRATE</p>
+                </div>
+                <div id="output"></div>
+                <form action="" id="formLogin" onsubmit="validarForm(event)">
+                    <div class="selectRegi inputRegi">
+                        <select class="regionSelect">
+                            <option value="option0">Chile</option>
+                            <option value="option0">Argentina</option>
+                            <option value="option0">Perú</option>
+                            <option value="option0">Colombia</option>
+                        </select>
+                    </div>
+                    <div class="usario inputRegi">
+                        <div class="inputRe">
+                            <input class="nameIn" id="inputName" type="text" placeholder="*Nombre">
+                        </div>
+                        <div class="inputRe">
+                            <input class="nameIn" id="inputApellido" type="text" placeholder="*Apellido">
+                        </div>
+                    </div>
+                    <div class="namediv inputRegi">
+                        <input class="inp" id="inputApodo" type="text" placeholder="*Nombre en pantalla">
+                    </div>
+                    <div class="namediv inputRegi">
+                        <input class="inp" id="inputCorreo" type="text" placeholder="*Correo Electronico">
+                    </div>
+                    <div class="namediv inputRegi">
+                        <input class="inp" id="inputPass" type="password" placeholder="*Contraseña">
+                    </div>
+                    <div class="checkBox">
+                        <input type="checkbox" id="">
+                        <label class="labelCheck">Quiero recibir noticias sobre actualizacion, eventos y
+                            encuestas.</label>
+                    </div>
+                    <div class="checkBox">
+                        <input type="checkbox" id="TyC">
+                        <label class="labelCheck">Acepto terminos y condiciones</label>
+                    </div>
+                    <!-- <div class="continue inputRegi">
+                    </div> -->
+                    <button type="submit" class="btnContinue">Inscribirme</button>
+                </form>
             </div>
-            <div class="namediv inputRegi">
-                <input class="inp"type="text" placeholder="*Nombre en pantalla">
-            </div>
-            <div class="namediv inputRegi">
-                <input class="inp" type="text" placeholder="*Correo Electronico">
-            </div>
-            <div class="namediv inputRegi">
-                <input class="inp" type="text" placeholder="*Contraseña">
-            </div>
-            <div class="namediv inputRegi">
-                <input class="inp" type="text" placeholder="*Confirmar contraseña">
-            </div>
-            <div class="checkBox">
-                <input type="checkbox" id="">
-                <label class="labelCheck">Quiero recibir noticias sobre actualizacion, eventos y encuestas.</label>
-            </div>
-            <div class="checkBox">
-                <input type="checkbox" id="">
-                <label class="labelCheck">Acepto terminos y condiciones</label>
-            </div>
-            <div class="continue inputRegi">
-                <button class="btnContinue"><a class="btnConti" href="./selecth.html">Continuar</a> </button>
-            </div>
-        </div>
-    </main>
-</body>
+        </main>
+        <script src="assets/js/form.js"></script>
+    </body>
+
 </html>

@@ -1,0 +1,474 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* -------------Aqui empieza el menu */
+.contMenu {
+	max-width: 1530px;
+	width: 100%;
+}
+.nav {
+	display: flex;
+	width: 100%;
+	height: 150px;
+	line-height: 65px;
+	background-color: #ffbe00;
+	justify-content: flex-start;
+}
+
+.img {
+	width: 33%;
+}
+
+.logoImg {
+	height: 145px;
+	width: 430px;
+	display: flex;
+}
+.buscador {
+	display: flex;
+	width: 30%;
+	justify-content: start;
+	align-items: center;
+}
+
+.menu {
+	width: 33%;
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.nameUser {
+	line-height: 1;
+}
+.picUser {
+	cursor: pointer;
+	width: 40px;
+}
+.boton1 {
+	background-color: #feffdb;
+	width: 70%;
+	height: 30%;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.itemMenu {
+	width: 130px;
+	padding: 10px;
+}
+
+.itemMenu a {
+	text-decoration: none;
+	color: #000000;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 800;
+}
+.img1 {
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+}
+.navlinks {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 100%;
+}
+.itemMenu {
+	width: 130px;
+	padding: 10px;
+}
+/* ----------------Empieza el chat */
+.conBody{
+    padding-top: 50px;
+    width: 1530px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color:#303960;
+    
+}
+.conMain{
+    max-width: 1300px;
+    width: 100%;
+    height: 800px;
+    padding: 10px 0px;
+    display: flex;
+    
+}
+
+.contRight{
+    width: 30%;
+    height: 740px;
+    background-color: rgb(223, 219, 219);
+}
+.contLeft{
+    width: 70%;
+    height: 740px;
+    border-style: dotted;
+}
+.perfil{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(223, 219, 219);
+    text-align: center;
+    padding-top: 5px;
+}
+.serch{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(223, 219, 219);
+}
+.media{
+    width: 100%;
+    height: 150px;
+}
+.media:hover{
+    transform: scale(1.02);
+   transition: 0.4s ease-in-out;
+   background-color: indianred;
+}
+.media p{
+    font-size: 13px;
+    cursor: pointer;
+}
+.imgpost,
+.optionIcon{
+    width: 80px;
+    height: 80px;
+}
+.serch{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+
+}
+.inpSerch{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.userChatPrin{
+    width: 100%;
+    height: 50px;
+}
+.fotoName{
+    width: 50%;
+    height: 80px;
+    background-color: #ffbe00;
+    display: flex;
+    justify-content: flex-end;
+}
+.optionChat{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffbe00;
+}
+.optionIcon{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+.contxtChat{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 12px;
+}
+.emoji{
+    width: 10%;
+    height: 70px;
+}
+.contEscritu{
+    width: 90%;
+    height: 70px;
+    padding:7px 5px 5px 4px;
+}
+.inpTxtPrincipal{
+    width: 100%;
+    height: 40px;
+}
+.userChatPrin{
+    display: flex;
+    height: 80px;
+}
+.imgpostRigth{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin: 10px 10px 0 0;
+}
+.oprEmoji{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.contbuttonTxt{
+    width: 100%;
+    height: 87px;
+    display:flex;
+    background-color: rgb(223, 219, 219);
+    padding:8px 5px 7px 5px;
+}
+.contEscritu{
+    width: 75%;
+    height: 70px;
+    
+}
+
+/* Los chats------------ */
+.textChat{
+    width: 300px;
+    height: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+.lad{
+    width: 100%;
+    height: 30px;
+    background-color: gold;
+    text-align: end;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px 0 0 0;
+}
+.lad p{
+    opacity: 20px;
+    color:rgb(77, 77, 77);
+    font-size: 10px;
+}
+.lad2 p{
+    font-family: monospace;
+    font-size: 18px;
+}
+.lad2{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(223, 219, 219);
+    text-align: end;
+    padding: 10px 5px 0 0;
+    
+}
+.imgCheck{
+    width: 20px;
+    height: 20px;
+}
+
+/* ----------Menu normal */
+@media screen and (max-width: 768px) {
+	.img {
+		display: none;
+	}
+	.menu {
+		display: none;
+	}
+	.buscador {
+		justify-content: center;
+		text-align: center;
+		width: 100%;
+	}
+	.header {
+		height: 490px;
+	}
+	.main {
+		height: 1220px;
+	}
+	.card-img {
+		width: 100px !important;
+		height: 100px !important;
+	}
+	.guter {
+		height: 390px !important;
+	}
+	.ContfotoPerfil {
+		margin-left: 6%;
+	}
+	.contLista {
+		padding-left: 2px;
+	}
+	.inf1 {
+		font-size: 15px;
+	}
+	.fotoPerfil {
+		width: 85%;
+		height: 170px;
+	}
+	.pMisp {
+		font-size: 30px;
+	}
+	.connHobbi {
+		width: 36%;
+	}
+	.section {
+		height: 800px;
+	}
+	.contPost {
+		height: 2320px;
+	}
+}
+/* -------------------aqui empieza el footer -----------------*/
+footer {
+	background: #202020;
+	color: white;
+	max-width: 1530px;
+	width: 100%;
+}
+.contContenedor {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 30px;
+}
+.containerBody {
+	display: flex;
+	justify-content: space-between;
+}
+.column1 {
+	max-width: 400px;
+	align-self: center;
+}
+.column1 a {
+	text-decoration: none;
+}
+.column1 h1 {
+	font-size: 80px;
+	font-weight: 7;
+	color: white;
+}
+
+.column1 span {
+	color: #fdd100;
+}
+
+.column2 {
+	max-width: 400px;
+}
+.column2 h1 {
+	font-size: 22px;
+}
+.row {
+	margin-top: 20px;
+	display: flex;
+}
+.row img {
+	width: 36px;
+	height: 36px;
+}
+.row a {
+	text-decoration: none;
+	color: #c7c7c7;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.column3 {
+	max-width: 400px;
+}
+.column3 h1 {
+	font-size: 22px;
+}
+.row2 {
+	margin-top: 20px;
+	display: flex;
+}
+.row2 img {
+	width: 36px;
+	height: 36px;
+}
+.row2 a {
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 20px;
+	max-width: 140px;
+	color: white;
+}
+
+.containerBajo {
+	width: 100%;
+	background-color: yellow;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #101010;
+}
+.copyright a {
+	text-decoration: none;
+	color: #c7c7c7;
+	font-weight: bold;
+}
+
+.terminos a {
+	text-decoration: none;
+	color: #c7c7c7;
+}
+
+/* responsive de el footer ---------------*/
+
+@media (max-width: 768px) {
+	.containerBody {
+		flex-wrap: wrap;
+	}
+	.column2,
+	.column3 {
+		margin-top: 20px;
+	}
+	.contimg {
+		display: none;
+	}
+	.contLogin {
+		width: 100%;
+	}
+	.connHobbi {
+		width: 50%;
+    }
+    .contLeft{
+        display:none;
+    }
+   
+}   
+/*----------- Menu responsive */
+
+.menuRespons {
+	height: 90px;
+	width: 100%;
+	position: sticky;
+	bottom: 0;
+	z-index: 100;
+}
+.connMenuResp {
+	width: 100%;
+	height: 100px;
+	background-color: #fdd100;
+	display: flex;
+	justify-content: space-around;
+}
+.img1Menu {
+	width: 93%;
+	height: 60px;
+	margin-top: 10px;
+	transition: 0.3s ease-in-out;
+}
+.img1Menu:hover {
+	transform: scale(1.1);
+	transition: 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+	.menuRespons {
+		display: none;
+	}
+}

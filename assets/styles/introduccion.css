@@ -3,7 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+html {
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+}
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
 		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -24,7 +27,12 @@ section h2 {
 	font-weight: 500;
 	margin-bottom: 5px;
 }
-
+.sec1,
+.sec2,
+.sec3 {
+	height: 100vh;
+	scroll-snap-align: start;
+}
 section p {
 	font-weight: 300;
 }
@@ -53,7 +61,7 @@ section a:hover {
 	transition: all 0.4s ease-in-out;
 	transform: scale(1.1);
 }
-.btnLogin{
+.btnLogin {
 	width: 80%;
 }
 

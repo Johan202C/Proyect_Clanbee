@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/loginsStyle.css">
-    <title>Login</title>
-</head>
-<body>
-    <main class="contmain">
-        <div class="contimg">
-            <img class="imgFondo"src="./assets/pics/login/ClanbeeFond_pantalla.jpg" alt="">
-        </div>
-        <div class="contLogin">
-            <form class="formlogin">
-                <div class="userandlig">
-                    <img class="imgUser"src="./assets/pics/login/user.png" alt="">
-                    <h1 class="logintext">Log In</h1>
-                </div>
-                <input type="text" class="inpputs" placeholder="User Name">
-                <input type="password" class="inpputs" placeholder="Password">
-                <a href="./home.html" class="btnlogin">LOG IN</a>
-                <div class="checks">
-                    <input type="checkbox" id="check">
-                    <label class="txtcheck"for="check">Remember me</label>
-                </div>
-                <div class="intoSocialMedia">
-                    <div class="socialM">
-                        <button class="btnRedSocial"><img class="imgRsocial"src="./assets/pics/login/social-media (1).png" alt="social media Google">Google</button>
-                    </div>
-                    <div class="socialM">
-                        <button class="btnRedSocial"><img class="imgRsocial"src="./assets/pics/login/social-media.png" alt="social media Facebook">Facebook</button>
-                    </div>
-                </div>
-				<div class="contRegis">
-					<a href="./registro.html" class="regis">Sign in</a>
-				</div>
-            </form>
-        </div>
-    </main>
-    <!-- footer -->
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./assets/styles/loginsStyle.css">
+		<title>Login</title>
+	</head>
+
+	<body>
+		<main class="contmain">
+			<div class="contimg">
+				<img class="imgFondo" src="./assets/pics/login/ClanbeeFond_pantalla.jpg" alt="">
+			</div>
+			<div class="contLogin">
+				<form class="formlogin" onsubmit="logearse(event)">
+					<div class="userandlig">
+						<img class="imgUser" src="./assets/pics/login/user.png" alt="">
+						<h1 class="logintext">Log In</h1>
+					</div>
+					<input type="text" class="inpputs" placeholder="User Name" id="nameLog">
+					<input type="password" class="inpputs" placeholder="Password" id="passLog">
+					<button type="submit" class="btnlogin">LOG IN</button>
+					<!-- <a href="./home.html" class="btnlogin">LOG IN</a> -->
+					<div class="checks">
+						<input type="checkbox" id="check">
+						<label class="txtcheck" for="check">Remember me</label>
+					</div>
+					<div class="intoSocialMedia">
+						<div class="socialM">
+							<button class="btnRedSocial"><img class="imgRsocial"
+									src="./assets/pics/login/social-media (1).png"
+									alt="social media Google">Google</button>
+						</div>
+						<div class="socialM">
+							<button class="btnRedSocial"><img class="imgRsocial"
+									src="./assets/pics/login/social-media.png"
+									alt="social media Facebook">Facebook</button>
+						</div>
+					</div>
+					<div class="contRegis">
+						<a href="./registro.html" class="regis">Sign in</a>
+					</div>
+				</form>
+			</div>
+		</main>
+		<!-- footer -->
 		<footer>
 			<div class="contContenedor">
 				<div class="containerBody">
 					<div class="column1">
-						<a href=""
-							><h1>Clan<span>bee</span></h1></a
-						>
+						<a href="">
+							<h1>Clan<span>bee</span></h1>
+						</a>
 					</div>
 					<div class="column2">
 						<h1>Redes Sociales</h1>
@@ -98,6 +105,7 @@
 				</div>
 			</div>
 		</footer>
-		
-</body>
+		<script src="./assets/js/form.js"></script>
+	</body>
+
 </html>

@@ -9,7 +9,7 @@
 			let i = tabs.indexOf(e.target);
 			// indexOf() nos devuelve la posición, mediante un número entero, de una cadena o un carácter dentro de una cadena de texto nada.
 			tabs.map((tab) => tab.classList.remove('active'));
-			/* map() llama a la función callback provista una vez por elemento de un array, en orden, y construye un nuevo array con los resultados 
+			/* map() llama a la función callback provista una vez por elemento de un array, en orden, y construye un nuevo array con los resultados
             por eso al principio lo convertimos en array*/
 			tabs[i].classList.add('active');
 			panels.map((panel) => panel.classList.remove('active'));
@@ -26,4 +26,14 @@ for (let i = 0; i < btnInfo.length; i += 1) {
 		btnInfo[i].style.background = 'yellow';
 		btnInfo[i].style.color = 'black';
 	});
+}
+
+for (let i = 0; i < btnInfo.length; i += 1) {
+
+		btnInfo[i].addEventListener('dblclick', () => {
+			btnInfo[i].innerHTML = 'unirse';
+			btnInfo[i].style.background = '#343a40';
+			btnInfo[i].style.color = 'white';
+		});
+
 }

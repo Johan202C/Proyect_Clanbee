@@ -1,218 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/listaAmigosStyle.css">
-    <link rel="icon" href="./assets/pics/listaAmigos/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>Amigos</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/styles/listaAmigosStyle.css">
+        <link rel="icon" href="./assets/pics/listaAmigos/favicon.png" type="image/png" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Amigos</title>
+    </head>
 
-<body>
+    <body>
 
-    <header class="contHeader">
-        <nav class="nav">
-   
-            <div class="img">
-            <img class="logoImg"src="./assets/pics/menu/beeTxtWhite2.png" alt="">
+        <header class="contHeader">
+            <nav class="nav">
+
+                <div class="img">
+                    <img class="logoImg" src="./assets/pics/menu/beeTxtWhite2.png" alt="">
+                </div>
+                <div class="buscador">
+                    <img class="img1" src="./assets/pics/menu/1150626.png" alt="">
+                    <input class="boton1" type="text" placeholder="Buscar">
+
+                </div>
+                <div class="menu">
+                    <ul class="navlinks">
+                        <li class="itemMenu"><a href="./home.html">Home</a></li>
+                        <li class="itemMenu"><a href="./chat.html">Mensajes</a></li>
+                        <li class="itemMenu"><a href="./evento.html">Eventos</a></li>
+                        <li class="itemMenu"><a href="./perfil.html">Perfil</a></li>
+                        <div class="user">
+                            <img src="./assets/pics/login/user.png" class="picUser" alt="">
+                            <p id="nameUser" class="nameUser"></p>
+                        </div>
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="container cont">
+                <div class="upCont">
+                    <div class="col-6 col-md-4">
+                        <h3>AMIGOS</h3>
+                    </div>
+                    <div class="col-6 col-md-8>
+                    <a href=""><img src=" ./assets/pics/listaAmigos/zoom.png" alt="Lupa" class="lupa"></a>
+                        <input type="search" placeholder="Buscar Amigo(No funcional)">
+                    </div>
+                </div>
+
+                <div class="friendCont">
+                    <div class="imgCont col-6  col-md-4">
+                        <img src="./assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.29 (1).jpeg" alt="">
+                    </div>
+                    <div class="infoCont col-6 col-md-8">
+                        <p class="title">Valeria Fernandez</p>
+                        <p class="text">Hobbies en común:</p>
+                        <div class="botones">
+                            <button type="button" class="btn btn-outline-warning">Fútbol</button>
+                            <button type="button" class="btn btn-outline-warning">Café</button>
+                            <button type="button" class="btn btn-outline-warning">Leer</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="friendCont">
+                    <div class="imgCont col-6  col-md-4">
+                        <img src="./assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.29 (2).jpeg" alt="">
+                    </div>
+                    <div class="infoCont col-6 col-md-8">
+                        <p class="title">Fabian Avendaño</p>
+                        <p class="text">Hobbies en común:</p>
+                        <div class="botones">
+                            <button type="button" class="btn btn-outline-warning">Anime</button>
+                            <button type="button" class="btn btn-outline-warning">Videojuegos</button>
+                            <button type="button" class="btn btn-outline-warning">Leer</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="friendCont">
+                    <div class="imgCont col-6  col-md-4">
+                        <img src="./assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.30 (5).jpeg" alt="">
+                    </div>
+                    <div class="infoCont col-6 col-md-8">
+                        <p class="title">Camila López</p>
+                        <p class="text">Hobbies en común:</p>
+                        <div class="botones">
+                            <button type="button" class="btn btn-outline-warning">Cantar</button>
+                            <button type="button" class="btn btn-outline-warning">Comida</button>
+                            <button type="button" class="btn btn-outline-warning">Cine</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="friendCont">
+                    <div class="imgCont col-6  col-md-4">
+                        <img src="assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.31 (1).jpeg" alt="">
+                    </div>
+                    <div class="infoCont col-6 col-md-8">
+                        <p class="title">Luisa Rodriguez</p>
+                        <p class="text">Hobbies en común:</p>
+                        <div class="botones">
+                            <button type="button" class="btn btn-outline-warning">Cine</button>
+                            <button type="button" class="btn btn-outline-warning">Videojuegos</button>
+                            <button type="button" class="btn btn-outline-warning">GYM</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="friendCont">
+                    <div class="imgCont col-6  col-md-4">
+                        <img src="assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.30 (6).jpeg" alt="">
+                    </div>
+                    <div class="infoCont col-6 col-md-8">
+                        <p class="title">Cristian Guzman</p>
+                        <p class="text">Hobbies en común:</p>
+                        <div class="botones">
+                            <button type="button" class="btn btn-outline-warning">Café</button>
+                            <button type="button" class="btn btn-outline-warning">Videojuegos</button>
+                            <button type="button" class="btn btn-outline-warning">Leer</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="buscador">
-              <img class ="img1"src="./assets/pics/menu/1150626.png" alt="">
-        <input class="boton1"type="text" placeholder="Buscar">
-        
+        </main>
+
+        <footer>
+            <div class="contContenedor">
+                <div class="containerBody">
+                    <div class="column1">
+                        <a href="">
+                            <h1>Clan<span>bee</span></h1>
+                        </a>
+                    </div>
+                    <div class="column2">
+                        <h1>Redes Sociales</h1>
+                        <div class="row">
+                            <img src="./assets/pics/footer/github.png" alt="" />
+                            <a href="">Siguenos en Github</a>
+                        </div>
+                        <div class="row">
+                            <img src="./assets/pics/footer/instagram.png" alt="" />
+                            <a href="">Siguenos en Instagram</a>
+                        </div>
+                        <div class="row">
+                            <img src="./assets/pics/footer/facebook.png" alt="" />
+                            <a href="">Siguenos en Facebook</a>
+                        </div>
+                        <div class="row">
+                            <img src="./assets/pics/footer/youtube.png" alt="" />
+                            <a href="">Siguenos en Youtube</a>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <h1>¡Contáctanos!</h1>
+                        <div class="row2">
+                            <img src="./assets/pics/footer/Ecasa.png" alt="" />
+                            <a href="cll:39#15-5"> Bictia |cll 39 #15-5</a>
+                        </div>
+                        <div class="row2">
+                            <img src="./assets/pics/footer/Etelefono.png" alt="" />
+                            <a href="tel:3213235764">12345678</a>
+                        </div>
+                        <div class="row2">
+                            <img src="./assets/pics/footer/Ecorreo.png" alt="" />
+                            <a href="mailto:clanbee123@gmail.com">clanbee123@gmail.com</a>
+                        </div>
+                        <div class="row2">
+                            <img src="./assets/pics/footer/conocenos.png" alt="" />
+                            <a href=""><label>Conócenos</label></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="menu">
-              <ul class="navlinks">
-                <li class="itemMenu"><a href="./home.html">Home</a></li>
-                <li class="itemMenu"><a href="#">Mensajes</a></li>
-                <li class="itemMenu"><a href="#">Eventos</a></li>
-                <li class="itemMenu"><a href="#">Perfil</a></li>
-            </ul>
-        
+            <div class="containerBajo">
+                <div class="copyright">
+                    © 2020 Todos los Derechos Reservados| <a href="">Clanbee</a>
+                </div>
+                <div class="terminos">
+                    <a href="">Informacion Compañia</a>|
+                    <a href="">Privacion y Política</a>|
+                    <a href="">Terminos y Condiciones</a>
+                </div>
             </div>
+        </footer>
+
+        <!------------- Menu responsive  -->
+        <nav class="menuRespons">
+            <div class="connMenuResp">
+                <div class="hom"><a href="./home.html"><img src="./assets/pics/MENU/home.png" alt=""
+                            class="img1Menu"></a> </div>
+                <div class="mns"><a href="./chat.html"><img src="./assets/pics/MENU/mns.png" alt="" class="img1Menu"></a> </div>
+                <div class="even"><a href="./evento.html"><img src="./assets/pics/MENU/even.png" alt="" class="img1Menu"></a>
+                </div>
+                <div class="per"><a href="./perfil.html"><img src="./assets/pics/MENU/user.png" alt="" class="img1Menu"></a> </div>
+            </div>
+
         </nav>
-    </header>
-    
 
-    <main class="main">
-        <div class="container cont">
-            <div class="upCont">
-                <div class="col-6 col-md-4">
-                    <h3>AMIGOS</h3>
-                </div>
-                <div class="col-6 col-md-8>
-                    <a href=""><img src="./assets/pics/listaAmigos/zoom.png" alt="Lupa" class="lupa"></a>
-                    <input type="search" placeholder="Buscar Amigo(No funcional)">
-                </div>
-            </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="menu.js"></script>
 
-            <div class="friendCont">
-                <div class="imgCont col-6  col-md-4">
-                    <img src="./assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.29 (1).jpeg" alt="">
-                </div>
-                <div class="infoCont col-6 col-md-8">
-                    <p class="title">Valeria Fernandez</p>
-                    <p class="text">Hobbies en común:</p>
-                    <div class="botones">
-                        <button type="button" class="btn btn-outline-warning">Fútbol</button>
-                        <button type="button" class="btn btn-outline-warning">Café</button>
-                        <button type="button" class="btn btn-outline-warning">Leer</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="friendCont">
-                <div class="imgCont col-6  col-md-4">
-                    <img src="./assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.29 (2).jpeg" alt="">
-                </div>
-                <div class="infoCont col-6 col-md-8">
-                    <p class="title">Fabian Avendaño</p>
-                    <p class="text">Hobbies en común:</p>
-                    <div class="botones">
-                        <button type="button" class="btn btn-outline-warning">Anime</button>
-                        <button type="button" class="btn btn-outline-warning">Videojuegos</button>
-                        <button type="button" class="btn btn-outline-warning">Leer</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="friendCont">
-                <div class="imgCont col-6  col-md-4">
-                    <img src="./assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.30 (5).jpeg" alt="">
-                </div>
-                <div class="infoCont col-6 col-md-8">
-                    <p class="title">Camila López</p>
-                    <p class="text">Hobbies en común:</p>
-                    <div class="botones">
-                        <button type="button" class="btn btn-outline-warning">Cantar</button>
-                        <button type="button" class="btn btn-outline-warning">Comida</button>
-                        <button type="button" class="btn btn-outline-warning">Cine</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="friendCont">
-                <div class="imgCont col-6  col-md-4">
-                    <img src="assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.31 (1).jpeg" alt="">
-                </div>
-                <div class="infoCont col-6 col-md-8">
-                    <p class="title">Luisa Rodriguez</p>
-                    <p class="text">Hobbies en común:</p>
-                    <div class="botones">
-                        <button type="button" class="btn btn-outline-warning">Cine</button>
-                        <button type="button" class="btn btn-outline-warning">Videojuegos</button>
-                        <button type="button" class="btn btn-outline-warning">GYM</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="friendCont">
-                <div class="imgCont col-6  col-md-4">
-                    <img src="assets/pics/listaAmigos/WhatsApp Image 2020-05-18 at 13.37.30 (6).jpeg" alt="">
-                </div>
-                <div class="infoCont col-6 col-md-8">
-                    <p class="title">Cristian Guzman</p>
-                    <p class="text">Hobbies en común:</p>
-                    <div class="botones">
-                        <button type="button" class="btn btn-outline-warning">Café</button>
-                        <button type="button" class="btn btn-outline-warning">Videojuegos</button>
-                        <button type="button" class="btn btn-outline-warning">Leer</button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </main>
-
-    <footer>
-        <div class="contContenedor">
-            <div class="containerBody">
-                <div class="column1">
-                    <a href=""
-                        ><h1>Clan<span>bee</span></h1></a
-                    >
-                </div>
-                <div class="column2">
-                    <h1>Redes Sociales</h1>
-                    <div class="row">
-                        <img src="./assets/pics/footer/github.png" alt="" />
-                        <a href="">Siguenos en Github</a>
-                    </div>
-                    <div class="row">
-                        <img src="./assets/pics/footer/instagram.png" alt="" />
-                        <a href="">Siguenos en Instagram</a>
-                    </div>
-                    <div class="row">
-                        <img src="./assets/pics/footer/facebook.png" alt="" />
-                        <a href="">Siguenos en Facebook</a>
-                    </div>
-                    <div class="row">
-                        <img src="./assets/pics/footer/youtube.png" alt="" />
-                        <a href="">Siguenos en Youtube</a>
-                    </div>
-                </div>
-                <div class="column3">
-                    <h1>¡Contáctanos!</h1>
-                    <div class="row2">
-                        <img src="./assets/pics/footer/Ecasa.png" alt="" />
-                        <a href="cll:39#15-5"> Bictia |cll 39 #15-5</a>
-                    </div>
-                    <div class="row2">
-                        <img src="./assets/pics/footer/Etelefono.png" alt="" />
-                        <a href="tel:3213235764">12345678</a>
-                    </div>
-                    <div class="row2">
-                        <img src="./assets/pics/footer/Ecorreo.png" alt="" />
-                        <a href="mailto:clanbee123@gmail.com">clanbee123@gmail.com</a>
-                    </div>
-                    <div class="row2">
-                        <img src="./assets/pics/footer/conocenos.png" alt="" />
-                        <a href=""><label>Conócenos</label></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="containerBajo">
-            <div class="copyright">
-                © 2020 Todos los Derechos Reservados| <a href="">Clanbee</a>
-            </div>
-            <div class="terminos">
-                <a href="">Informacion Compañia</a>|
-                <a href="">Privacion y Política</a>|
-                <a href="">Terminos y Condiciones</a>
-            </div>
-        </div>
-    </footer>
-
-<!------------- Menu responsive  -->
-<nav class="menuRespons">
-    <div class="connMenuResp">
-      <div class="hom"><a href="./home.html"><img src="./assets/pics/MENU/home.png" alt="" class="img1Menu"></a> </div>
-      <div class="mns"><a href="./"><img src="./assets/pics/MENU/mns.png" alt="" class="img1Menu"></a> </div>
-      <div class="even"><a href="./"><img src="./assets/pics/MENU/even.png" alt="" class="img1Menu"></a> </div>
-      <div class="per"><a href="./"><img src="./assets/pics/MENU/user.png" alt="" class="img1Menu"></a> </div>
-    </div>
-  
-  </nav>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="menu.js"></script>
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
-    
-</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+        <script src="./assets/js/form.js"></script>
+    </body>
 
 </html>

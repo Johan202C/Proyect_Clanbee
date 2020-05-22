@@ -15,6 +15,7 @@
 	/* position: fixed; */
 	line-height: 65px;
 	background-color: #ffbe00;
+	justify-content: flex-start;
 }
 
 .ContImgMenu {
@@ -28,7 +29,7 @@
 }
 .buscador {
 	display: flex;
-	/* width: 55%; */
+	width: 30%;
 	justify-content: start;
 	align-items: center;
 }
@@ -39,6 +40,13 @@
 	padding: 10px;
 	display: flex;
 	align-items: center;
+}
+.nameUser {
+	line-height: 1;
+}
+.picUser {
+	cursor: pointer;
+	width: 40px;
 }
 .navTrigger {
 	cursor: pointer;
